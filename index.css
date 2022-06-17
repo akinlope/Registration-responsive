@@ -1,0 +1,139 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+body{
+    background-image: url("/images/bg-intro-desktop.png");
+    background-color: hsl(0, 100%, 74%);
+    width: 100%;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+main{
+    width: 100%;
+    margin: 0 auto;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    justify-content: space-between;
+}
+
+.first{
+    color: white;
+    font-family: "poppins", sans-serif;
+}
+h1{
+    font-size: 3rem;
+    padding-bottom: 20px;
+}
+
+.first p{
+    color: white;
+    font-family: "poppins", sans-serif;
+    padding-right: 20px;
+}
+
+
+.payment{
+    background-color: hsl(248, 32%, 49%);
+    padding: 15px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    text-align: center;
+    color: white;
+    font-family: "poppins", sans-serif;
+    -webkit-box-shadow: 0px 7px 2px 0px rgba(51,44,51,0.19);
+    -moz-box-shadow: 0px 7px 2px 0px rgba(51,44,51,0.19);
+    box-shadow: 0px 7px 2px 0px rgba(51,44,51,0.19);
+
+}
+
+
+.contaner2{
+    position: relative;
+    padding-top: 20px;
+    background-color: white;
+    border-radius: 10px;
+    align-items: center;
+    -webkit-box-shadow: 0px 7px 2px 0px rgba(51,44,51,0.19);
+    -moz-box-shadow: 0px 7px 2px 0px rgba(51,44,51,0.19);
+    box-shadow: 0px 7px 2px 0px rgba(51,44,51,0.19);
+}
+
+input{
+    /* position: relative; */
+    padding: 10px;
+    margin-top: 20px;
+    width: 90%;
+    margin-left: 20px;   
+}
+
+.img1{
+    position: absolute;
+    top: 48px;
+    right: 35px;
+}
+.img2{
+    position: absolute;
+    right: 35px;
+    top: 107px
+}
+.img3{
+    position: absolute;
+    right: 35px;
+    top: 165px;
+}
+.img4{
+    position: absolute;
+    right: 35px;
+    top: 225px;
+}
+
+button{
+    width: 90%;
+    margin-left: 20px;
+    padding: 10px;
+    margin-top: 20px;
+    margin-top: 20px;
+    background-color:  hsl(154, 59%, 51%);
+    border: none;
+    border-radius: 5px;
+    font-family: "poppins", sans-serif;
+    color: white;
+} 
+
+.click{
+    padding: 20px;
+    font-size: 12px;
+    color: hsl(246, 25%, 77%);
+    text-align: center;
+}
+
+.TandC{
+    color: #ff8080;
+}
+
+
+@media (max-width: 375px) {
+    body{
+        background-image: url("/images/bg-intro-mobile.png");
+    }  
+    .container{
+        display: flex;
+        flex-direction: column;
+        padding: 20px;
+
+    }
+
+    h1{
+        font-size: 2rem;
+    }
+}
